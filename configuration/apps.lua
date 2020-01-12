@@ -18,7 +18,7 @@ return {
     
     -- Editing these also edits the default program
     -- associated with each tag/workspace
-    browser = 'vivaldi-stable',
+    browser = 'brave',
     editor = 'gedit', -- gui text editor
     social = 'discord',
     game = rofi_command,
