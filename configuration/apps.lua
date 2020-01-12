@@ -19,7 +19,7 @@ return {
     -- Editing these also edits the default program
     -- associated with each tag/workspace
     browser = 'brave',
-    editor = 'gedit', -- gui text editor
+    editor = 'code', -- gui text editor
     social = 'discord',
     game = rofi_command,
     files = 'nautilus -w',
