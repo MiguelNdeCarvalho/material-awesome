@@ -22,7 +22,7 @@ An almost desktop environment made with [AwesomeWM](https://awesomewm.org/) foll
 - [Roboto](https://fonts.google.com/specimen/Roboto) as the **font** - Arch install: ttf-roboto
 - [Rofi](https://github.com/DaveDavenport/rofi) for the app launcher - Arch install: rofi
 - [Compton](https://github.com/tryone144/compton) for the compositor (blur and animations) Arch install: compton
-- [i3lock](https://github.com/meskarune/i3lock-fancy) the lockscreen application Arch Install: i3lock
+- [i3lock-fancy](https://github.com/meskarune/i3lock-fancy) the lockscreen application Arch Install: i3lock-fancy (Aur)
 - [xclip](https://github.com/astrand/xclip) for copying screenshots to clipboard 
 - __gnome-keyring__ and a __policykit-agent__ (by default policykit-1-gnome is enabled)
 - (Optional) __qt5-styles-gtk2__ or __qt5-styleplugins-git__ for making QT and KDE applications look the same as gnome applications
