@@ -9,8 +9,6 @@
 # List of applications to run
 APPS=(
     keepassxc
-    kdeconnect-indicator
-    radeon-profile
     nextcloud
     )
 
