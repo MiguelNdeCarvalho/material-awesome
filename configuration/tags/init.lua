@@ -17,15 +17,15 @@ local tags = {
     screen = 1
   },
   {
-    icon = icons.social,
-    type = 'social',
-    defaultApp = apps.default.social,
+    icon = icons.slack,
+    type = 'slack',
+    defaultApp = apps.default.business,
     screen = 1
   },
   {
-    icon = icons.game,
-    type = 'game',
-    defaultApp = apps.default.game,
+    icon = icons.social,
+    type = 'social',
+    defaultApp = apps.default.social,
     screen = 1
   },
   {

@@ -7,7 +7,7 @@ return {
   social = dir .. '/forum.svg',
   folder = dir .. '/folder.svg',
   music = dir .. '/music.svg',
-  game = dir .. '/google-controller.svg',
+  slack = dir .. '/slack.svg',
   lab = dir .. '/flask.svg',
   --others
   menu = dir .. '/menu.svg',

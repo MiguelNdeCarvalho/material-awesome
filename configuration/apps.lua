@@ -21,7 +21,7 @@ return {
     browser = 'brave',
     editor = 'code', -- gui text editor
     social = 'discord',
-    game = rofi_command,
+    business = 'slack',
     files = 'nautilus -w',
     music = rofi_command
   },
