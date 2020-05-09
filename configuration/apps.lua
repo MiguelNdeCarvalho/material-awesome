@@ -22,7 +22,7 @@ return {
     editor = 'code', -- gui text editor
     social = 'discord',
     business = 'slack',
-    files = 'nautilus -w',
+    files = 'nemo',
     music = rofi_command
   },
   -- List of apps to start once on start-up
