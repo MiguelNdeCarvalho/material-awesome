@@ -23,7 +23,7 @@ return {
     social = 'discord',
     business = 'slack',
     files = 'nemo',
-    music = rofi_command
+    music = 'spotify'
   },
   -- List of apps to start once on start-up
   run_on_start_up = {
