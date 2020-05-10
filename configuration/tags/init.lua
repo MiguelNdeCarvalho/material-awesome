@@ -23,9 +23,9 @@ local tags = {
     screen = 1
   },
   {
-    icon = icons.slack,
-    type = 'slack',
-    defaultApp = apps.default.business,
+    icon = icons.folder,
+    type = 'files',
+    defaultApp = apps.default.files,
     screen = 1
   },
   {
@@ -35,9 +35,9 @@ local tags = {
     screen = 1
   },
   {
-    icon = icons.folder,
-    type = 'files',
-    defaultApp = apps.default.files,
+    icon = icons.slack,
+    type = 'slack',
+    defaultApp = apps.default.business,
     screen = 1
   },
   {
