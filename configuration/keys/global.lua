@@ -304,7 +304,31 @@ local globalKeys =
     {},
     'XF86AudioNext',
     function()
-      --
+      awful.util.spawn("dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Next", false)
+    end,
+    {description = 'toggle mute', group = 'hotkeys'}
+  ),
+  awful.key(
+    {},
+    'XF86AudioPrev',
+    function()
+      awful.util.spawn("dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Previous", false)
+    end,
+    {description = 'toggle mute', group = 'hotkeys'}
+  ),
+  awful.key(
+    {},
+    'XF86AudioPlay',
+    function()
+      awful.util.spawn("dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.PlayPause", false)
+    end,
+    {description = 'toggle mute', group = 'hotkeys'}
+  ),
+  awful.key(
+    {},
+    'XF86AudioStop',
+    function()
+      awful.util.spawn("dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Stop", false)
     end,
     {description = 'toggle mute', group = 'hotkeys'}
   ),
