@@ -333,6 +333,14 @@ local globalKeys =
     {description = 'toggle mute', group = 'hotkeys'}
   ),
   awful.key(
+    {modkey, 'Shift'},
+    'a',
+    function()
+      awful.util.spawn("pavucontrol")
+    end,
+    {description = 'Open Pavu Control', group = 'hotkeys'}
+  ),
+  awful.key(
     {},
     'XF86PowerDown',
     function()
